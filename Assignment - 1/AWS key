@@ -1,0 +1,7 @@
+ final AmazonS3 s3 = AmazonS3ClientBuilder.standard()
+                .withRegion(Regions.DEFAULT_REGION)
+                .withCredentials(new AWSStaticCredentialsProvider(new BasicSessionCredentials(
+                        "ASIAS44XD3BR6PQEM7GE",
+                        "ByZxuxtcFEHKp27p0UWpE0ezMlezZgB8UgrYkJQK",
+                        "FwoGZXIvYXdzEOH//////////wEaDKyHBQ/9/s5gYAWMqSLAAWzpTfePXNol+BHx5eklCOSc2KkYh5KxQyk7Jp8eCmpFjB/9JPRjM1OmzC+pnd70mHGwACqUhje2XlD+yNvDhppBMf4KoouHvvK93VoCY1LEuA8IR5kR/P9jAcdnoRJxD/Bak5kjDWTMe5JfRtZQGJGHU5wCpH2Alw0tcsdG8nL1ArXSGFf66+eZjZCSNvaVSWz/qSzn4sDYZ5wbqWSeJwJ0uxbK7xlA9yWCAUmyQA91xa3FMebW0XxP2cm7AKQB/Ciwqp2aBjItxlISyB01Ylj28nKuP4q+ZM/d5JYZH5uHaRSP3MJzJIl0Sv02yJPQnCUKanwA"
+                ))).build();
